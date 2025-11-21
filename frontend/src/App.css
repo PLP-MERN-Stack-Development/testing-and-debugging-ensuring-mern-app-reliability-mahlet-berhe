@@ -1,0 +1,77 @@
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.form input,
+.form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #0077cc;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #005fa3;
+}
+
+.btn.edit {
+  background: #ffa500;
+}
+
+.btn.edit:hover {
+  background: #cc8400;
+}
+
+.btn.delete {
+  background: #e63946;
+}
+
+.btn.delete:hover {
+  background: #b71c1c;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  background: #fafafa;
+}
+
+.actions {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.empty {
+  text-align: center;
+  color: #777;
+}

@@ -1,0 +1,30 @@
+{
+    "name":  "backend",
+    "version":  "1.0.0",
+    "description":  "",
+    "main":  "index.js",
+  "scripts": {
+  "dev": "nodemon src/server.js",
+  "test": "jest",
+  "test:unit": "jest --coverage --testPathPatterns=backend/tests/unit",
+  "test:integration": "jest --coverage --testPathPatterns=backend/tests/integration"
+},
+    "keywords":  [
+
+                 ],
+    "author":  "",
+    "license":  "ISC",
+    "type":  "commonjs",
+    "dependencies":  {
+                         "cors":  "^2.8.5",
+                         "dotenv":  "^17.2.3",
+                         "express":  "^5.1.0",
+                         "mongoose":  "^8.20.1"
+                     },
+    "devDependencies":  {
+                            "jest":  "^30.2.0",
+                            "mongodb-memory-server":  "^10.3.0",
+                            "nodemon":  "^3.1.11",
+                            "supertest":  "^7.1.4"
+                        }
+}
